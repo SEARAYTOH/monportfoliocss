@@ -1,0 +1,53 @@
+body { 
+     font-family: "roboto";
+     margin: 0;
+     padding: 0;
+    
+    }
+
+
+header, footer { 
+     position: sticky;
+     background :linear-gradient(blue,blue,gray) ; color: #fff; 
+     text-align: center;
+     padding: 15px; 
+    
+    }
+
+nav ul {
+     list-style: none;
+     padding: 0; 
+    }
+
+nav ul li { 
+     display: inline; 
+     margin: 0 10px;
+     }
+
+nav ul li a { 
+     color: #fff;
+     text-decoration: none;
+     }
+
+section { padding: 20px; }
+
+h2 { color: #333; }
+
+.project img { 
+    max-width: 100%; 
+    height: auto;
+     }
+
+footer ul { 
+    list-style: none; 
+    padding: 0; 
+     }
+
+footer ul li { 
+    display: inline; 
+    margin: 0 10px; }
+
+img {
+   box-shadow: 10px 10px 5px;
+   border-radius: 20px;
+     }
